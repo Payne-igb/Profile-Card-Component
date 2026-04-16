@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <article class="profile-card" data-testid="test-profile-card">
+
+        <figure class="profile-avatar">
+          <img
+            src="assets/IMG-20240906-WA0024_1.jpg"
+            alt="Portrait of Igbonekwu Christopher"
+            data-testid="test-user-avatar"
+            tabindex="0"
+          />
+          <figcaption>Profile Photo</figcaption>
+        </figure>
+
+        <div class="profile-content">
+          <header>
+            <h2 data-testid="test-user-name">Igbonekwu Christopher</h2>
+          </header>
+
+          <p data-testid="test-user-bio">
+            Frontend developer passionate about building accessible and
+            performant web applications.
+          </p>
+
+          <!-- Time -->
+          <p aria-live="polite">
+            Current Time:
+            <span data-testid="test-user-time" id="time"></span>
+          </p>
+
+          <!-- Social Links -->
+          <nav data-testid="test-user-social-links" aria-label="Social links">
+            <ul>
+              <li>
+                <a
+                  href="https://x.com/Payne_igb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-twitter"
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Payne-igb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-github"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/igbonekwu-christopher-755a71300/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-testid="test-user-social-linkedin"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Hobbies -->
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Playing Basketball</li>
+              <li>Gaming</li>
+            </ul>
+          </section>
+
+          <!-- Dislikes -->
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Slow internet</li>
+              <li>Bad UI</li>
+              <li>Unoptimized apps</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
