@@ -2,22 +2,22 @@ This project is a **responsive, accessible Profile Card** built using **pure HTM
 
 It was developed as part of the **Frontend Wizards Stage 1B Task**, with a strong focus on:
 * Semantic HTML
-* Accessibility (WCAG considerations)
+* Accessibility (WCAG AA considerations)
 * Responsiveness
 * Testability using `data-testid` attributes
 ---
 
 ##  Features
 
-* 📄 Semantic HTML structure (`article`, `figure`, `nav`, `section`, etc.)
-* ♿ Accessibility-focused (alt text, aria-live, keyboard navigation)
-* 📱 Fully responsive design (mobile, tablet, desktop)
-* ⏱️ Live updating **current time in milliseconds** using `Date.now()`
-* 🧪 Test-friendly with required `data-testid` attributes
-* 🔗 External social links with secure target behavior
+*  Semantic HTML structure (`article`, `figure`, `nav`, `section`, etc.)
+*  Accessibility-focused (alt text, aria-live, keyboard navigation)
+*  Fully responsive design (mobile, tablet, desktop)
+*  Live updating **current time in milliseconds** using `Date.now()`
+*  Test-friendly with required `data-testid` attributes
+*  External social links with secure target behavior
 
 ---
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * HTML5 (Semantic Markup)
 * CSS3 (Flexbox & Responsive Design)
@@ -53,7 +53,7 @@ It updates every second using `setInterval`, ensuring accuracy within an accepta
 
 ---
 
-## ♿ Accessibility Considerations
+##  Accessibility Considerations
 
 * Meaningful `alt` text for images
 * `aria-live="polite"` for dynamic time updates
